@@ -1,0 +1,343 @@
+{
+    "code": 200,
+    "token": "634739344e6c6470536d566a6233526c546c5a44596b6c704f57743562564a32646c68686454646a57456c4964584a69526d396b51544e4c4c335a7861574a5756576c5551586c4a4e6a5a79536a4a4a0d0a62305a4b5a58426f554870694f555a42596a5a61636c64765954594e43693934597a567964477478646a46565230744b5a6d7445563156545331644c6257453055573031617a5a6156334a335546707a0d0a4d6e56355433464f52793950596c63725a557449555456465632744b536d356f5457684e557a426d616c417a64585a766543743161556c52445170565745737a4d32743552575a7851305643635774550d0a6455597656575a365a33565664484a6c5a6b706d5a6d35694d7a6730556e707a62566f7764475a35656a4572616a6c4865444e3454327444655578704e575242597a4e6c64544e6b4f464e71597a6c700d0a5633466e5977304b565738316230564a62586443535578454e6b4a6f5a326732656b52754b32643554566379655842355331427562554e445655786e646e426f593346756232464d6333687a52566c720d0a557a4a6f536d70364e5667794d6b356e575374314e5531494e43383357466c4d4e33674e436b6c5251573033556d7372556c4e75624574324b3046504e484250556974765a7a4d33576a424a64576c4c0d0a54557443645778776133453364546c72616a5255626d3177516b68565a7a4277576d4a70567a466b5133633351577059553355794e6b5177656e4e78616d4a6a4451704d5369397564576449656d68440d0a5455685661334e705a484e336244553356335a4361556c36575530346431645a4f4556424c323559526b6b344e6b4577625756794f453130623052565a55786f597a4a755243743151565a784c7a4a730d0a52306c5051697330515755346551304b525752455658493359334e304d6c464c52485a464d314e4c4e6a6c6b5557317a635568345155513153445a6e53487047623068745446524a537a45794f5778550d0a65584e6f623263794d324a6a54484633516c56505254424e4e6d78755448466e51566c6c626b6b7a5a46494e436b56514e30353459556849625446524d45684c636d686a524670305556524a623235480d0a6432317056574a3665475a6c6257737761305977533274305555687a644530344d335a6c656e55796133567865476858546c644961334e335a566851546c707a4e7a4e4b62474a534451704a5a5530310d0a576e644365564a366169743161316f314e554e314e5768684e6a6c764c304e544b305a714d7a46354c326b3559315a4962326c514d555a76625642335954644f616e673059314672626939695a4563320d0a51307450627a6330527a646864303572576e59345341304b615852706330564b527a68584f444e70596a63325a453173546b31494d314e4762585a4f513346555230743262564e79654339314d7939450d0a626d647a5469746152476c424e5868685432465a516d313461555a705330684f53485a74576e466c51585256626c59764e32454e436d4a75646e5a6b64693977596c64354b315a4e52464e78616e457a0d0a4d4764484b336c5762315247596d466e4e6e52354d43394356574a49544456526245493451305179616b6442536c6c6a566c567552793879515764686254686e554731435a43746a4e564647646e6b350d0a4451705357486c68656b316161485576556b316f557a6856537a4e33623239594f56646f636a5a5561445534627a52794e314e304e454a4a4e56464a556a51335a4735565157357252464a4f4f445a4a0d0a4f41",
+    "host": "HTTP48",
+    "data": {
+        "questions": [
+            {
+                "id": 330,
+                "question": "UsOpc291ZHJl",
+                "enonce": "PHA+eSArIDkgPSAxNTwvcD4K",
+                "titreSon": "",
+                "srcSon": "",
+                "typeQ": "textholes",
+                "propositions": [
+                    {
+                        "id": 1019,
+                        "enonce": "TGEgc29sdXRpb24gZXN0IHkgPcKkMA=="
+                    }
+                ]
+            },
+            {
+                "id": 336,
+                "question": "UsOpc291ZHJl",
+                "enonce": "PHA+MiA8ZW0+eCA8L2VtPisgNCA9IC0gNiAtIDQgPGVtPng8L2VtPjwvcD4K",
+                "titreSon": "",
+                "srcSon": "",
+                "typeQ": "textholes",
+                "propositions": [
+                    {
+                        "id": 1025,
+                        "enonce": "TGEgc29sdXRpb24gZXN0IHggPSDCpDA8YnI+"
+                    }
+                ]
+            },
+            {
+                "id": 333,
+                "question": "UsOpc291ZHJl",
+                "enonce": "PHA+MTcgYSArIDQxID0mbmJzcDsgNzU8L3A+Cg==",
+                "titreSon": "",
+                "srcSon": "",
+                "typeQ": "textholes",
+                "propositions": [
+                    {
+                        "id": 1022,
+                        "enonce": "TGEgc29sdXRpb24gZXN0IGEgPSDCpDA="
+                    }
+                ]
+            },
+            {
+                "id": 337,
+                "question": "UsOpc291ZHJl",
+                "enonce": "PHA+MyAoIHggKyA3ICkgPSA3IHggLSA0ODwvcD4K",
+                "titreSon": "",
+                "srcSon": "",
+                "typeQ": "textholes",
+                "propositions": [
+                    {
+                        "id": 1026,
+                        "enonce": "TGEgc29sdXRpb24gZXN0IHggPSDCpDA8YnI+"
+                    }
+                ]
+            },
+            {
+                "id": 332,
+                "question": "UsOpc291ZHJl",
+                "enonce": "PHA+MTAgeCAtIDggPSAxMjwvcD4K",
+                "titreSon": "",
+                "srcSon": "",
+                "typeQ": "textholes",
+                "propositions": [
+                    {
+                        "id": 1021,
+                        "enonce": "TGEgc29sdXRpb24gZXN0IHggPcKkMA=="
+                    }
+                ]
+            },
+            {
+                "id": 328,
+                "question": "UsOpc291ZHJl",
+                "enonce": "PHA+eCArIDcgPSAwPC9wPgo=",
+                "titreSon": "",
+                "srcSon": "",
+                "typeQ": "textholes",
+                "propositions": [
+                    {
+                        "id": 1017,
+                        "enonce": "TGEgc29sdXRpb24gZXN0IHggPSDCpDA="
+                    }
+                ]
+            },
+            {
+                "id": 334,
+                "question": "UsOpc291ZHJl",
+                "enonce": "PHA+LSA4IGIgKyA1MCA9IDkwJm5ic3A7PC9wPgo=",
+                "titreSon": "",
+                "srcSon": "",
+                "typeQ": "textholes",
+                "propositions": [
+                    {
+                        "id": 1023,
+                        "enonce": "TGEgc29sdXRpb24gZXN0IGIgPSDCpDA="
+                    }
+                ]
+            },
+            {
+                "id": 335,
+                "question": "UsOpc291ZHJl",
+                "enonce": "PHA+MiB4ICsgMzIgPSA4IHggLSAxMDwvcD4K",
+                "titreSon": "",
+                "srcSon": "",
+                "typeQ": "textholes",
+                "propositions": [
+                    {
+                        "id": 1024,
+                        "enonce": "TGEgc29sdXRpb24gZXN0IHggPcKkMA=="
+                    }
+                ]
+            },
+            {
+                "id": 329,
+                "question": "UsOpc291ZHJl",
+                "enonce": "PHA+LSB4ICsgMTAgPSAwPC9wPgo=",
+                "titreSon": "",
+                "srcSon": "",
+                "typeQ": "textholes",
+                "propositions": [
+                    {
+                        "id": 1018,
+                        "enonce": "TGEgc29sdXRpb24gZXN0IHggPSDCpDA="
+                    }
+                ]
+            },
+            {
+                "id": 331,
+                "question": "UsOpc291ZHJl",
+                "enonce": "PHA+MyB4ID0gOTA8L3A+Cg==",
+                "titreSon": "",
+                "srcSon": "",
+                "typeQ": "textholes",
+                "propositions": [
+                    {
+                        "id": 1020,
+                        "enonce": "TGEgc29sdXRpb24gZXMgeCA9IMKkMA=="
+                    }
+                ]
+            }
+        ],
+        "reponses": [
+            {
+                "id": 2935,
+                "idQuestion": 330,
+                "idParticipant": 283,
+                "choix": {
+                    "1019": ""
+                },
+                "resultat": "ar",
+                "points": 0
+            },
+            {
+                "id": 2936,
+                "idQuestion": 336,
+                "idParticipant": 283,
+                "choix": {
+                    "1025": ""
+                },
+                "resultat": "ar",
+                "points": 0
+            },
+            {
+                "id": 2937,
+                "idQuestion": 333,
+                "idParticipant": 283,
+                "choix": {
+                    "1022": ""
+                },
+                "resultat": "ar",
+                "points": 0
+            },
+            {
+                "id": 2938,
+                "idQuestion": 337,
+                "idParticipant": 283,
+                "choix": {
+                    "1026": ""
+                },
+                "resultat": "ar",
+                "points": 0
+            },
+            {
+                "id": 2939,
+                "idQuestion": 332,
+                "idParticipant": 283,
+                "choix": {
+                    "1021": ""
+                },
+                "resultat": "ar",
+                "points": 0
+            },
+            {
+                "id": 2940,
+                "idQuestion": 328,
+                "idParticipant": 283,
+                "choix": {
+                    "1017": ""
+                },
+                "resultat": "ar",
+                "points": 0
+            },
+            {
+                "id": 2941,
+                "idQuestion": 334,
+                "idParticipant": 283,
+                "choix": {
+                    "1023": ""
+                },
+                "resultat": "ar",
+                "points": 0
+            },
+            {
+                "id": 2942,
+                "idQuestion": 335,
+                "idParticipant": 283,
+                "choix": {
+                    "1024": ""
+                },
+                "resultat": "ar",
+                "points": 0
+            },
+            {
+                "id": 2943,
+                "idQuestion": 329,
+                "idParticipant": 283,
+                "choix": {
+                    "1018": ""
+                },
+                "resultat": "ar",
+                "points": 0
+            },
+            {
+                "id": 2944,
+                "idQuestion": 331,
+                "idParticipant": 283,
+                "choix": {
+                    "1020": ""
+                },
+                "resultat": "ar",
+                "points": 0
+            }
+        ],
+        "solutions": [
+            {
+                "idQuestion": 330,
+                "remediation": "PHA+eSArIDkgPSAxNTwvcD4KCjxwPlZvdXMgcG91dmV6IHNhdXRlciBkZXMgJmVhY3V0ZTt0YXBlcy48L3A+Cgo8cD55ID0gMTUgLSA5PC9wPgoKPHA+eSA9IDY8L3A+Cg==",
+                "choix": {
+                    "1019": "Ng=="
+                }
+            },
+            {
+                "idQuestion": 336,
+                "remediation": "PHA+MiA8ZW0+eCA8L2VtPisgNCA9IC0gNiAtIDQgPGVtPng8L2VtPjwvcD4KCjxwPjxlbT4yIHggKyA0IHggPSAtNiAtIDQ8L2VtPjwvcD4KCjxwPjxlbT42IHggPSAtMTA8L2VtPjwvcD4KCjxwPjxlbT54ID0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxOHB4OyI+PHNwYW4gY2xhc3M9Im1hdGgtdGV4Ij5cKFxmcmFjey0xMH17Nn1cKTwvc3Bhbj48L3NwYW4+PC9lbT48L3A+Cg==",
+                "choix": {
+                    "1025": "LSAxMC82"
+                }
+            },
+            {
+                "idQuestion": 333,
+                "remediation": "PHA+MTcgYSArIDQxIC0gNDEgPSA3NSAtIDQxPC9wPgoKPHA+MTcgYSZuYnNwOyAmbmJzcDs9Jm5ic3A7IDM0PC9wPgoKPHA+YSA9Jm5ic3A7PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxOHB4OyI+PHNwYW4gY2xhc3M9Im1hdGgtdGV4Ij5cKFxmcmFjezM0fXsxN31cKTwvc3Bhbj48L3NwYW4+PC9wPgoKPHA+YSA9IDI8L3A+Cg==",
+                "choix": {
+                    "1022": "Mg=="
+                }
+            },
+            {
+                "idQuestion": 337,
+                "remediation": "PHA+MyAoIHggKyA3ICkgPSA3IHggLSA0ODwvcD4KCjxwPiZuYnNwOzwvcD4KCjxwPjMgeCArIDIxID0gNyB4IC0gNDg8L3A+Cgo8cD4zIHggLSA3IHggPSAtIDQ4IC0gMjE8L3A+Cgo8cD4tIDQgeCA9IC0gNjk8L3A+Cgo8cD4mbmJzcDt4ID0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxOHB4OyI+PHNwYW4gY2xhc3M9Im1hdGgtdGV4Ij5cKFxmcmFjezY5fXs0fVwpPC9zcGFuPjwvc3Bhbj49IDE3LDI1PC9wPgo=",
+                "choix": {
+                    "1026": "MTcuMjU="
+                }
+            },
+            {
+                "idQuestion": 332,
+                "remediation": "PHA+MTAgPGVtPng8L2VtPiAtIDggPSAxMjwvcD4KCjxwPjEwIDxlbT54PC9lbT4gPSAxMiArIDg8L3A+Cgo8cD4xMCA8ZW0+eDwvZW0+ID0gMjA8L3A+Cgo8cD4xMCA8ZW0+eDwvZW0+ICombmJzcDsmbmJzcDs8c3BhbiBjbGFzcz0ibWF0aC10ZXgiPlwoXGZyYWN7MX17MTB9XCk8L3NwYW4+PSAyMCAqJm5ic3A7PHNwYW4gY2xhc3M9Im1hdGgtdGV4Ij5cKFxmcmFjezF9ezEwfVwpPC9zcGFuPjwvcD4KCjxwPjxlbT54PC9lbT4gPSZuYnNwOzxzcGFuIGNsYXNzPSJtYXRoLXRleCI+XChcZnJhY3syMH17MTB9XCk8L3NwYW4+PC9wPgoKPHA+PGVtPng8L2VtPiA9IDI8L3A+Cg==",
+                "choix": {
+                    "1021": "Mg=="
+                }
+            },
+            {
+                "idQuestion": 328,
+                "remediation": "PHA+eCArIDcgPHNwYW4gc3R5bGU9ImNvbG9yOiMwMDAwRkY7Ij4tIDcgPC9zcGFuPj0gMDxzcGFuIHN0eWxlPSJjb2xvcjojMDAwMEZGOyI+IC0gNzwvc3Bhbj48L3A+Cgo8cD48Zm9udCBjb2xvcj0iIzAwMDAwMCI+eCA9Jm5ic3A7IC0gNzwvZm9udD48L3A+Cg==",
+                "choix": {
+                    "1017": "LTc="
+                }
+            },
+            {
+                "idQuestion": 334,
+                "remediation": "PHA+LSA4IGIgKyA1MCA9IDkwJm5ic3A7PC9wPgoKPHA+LSA4IGImbmJzcDsgPSA5MCAtIDUwPC9wPgoKPHA+LSA4IGIgPSA0MDwvcD4KCjxwPmIgPSZuYnNwOzxzcGFuIHN0eWxlPSJmb250LXNpemU6MThweDsiPjxzcGFuIGNsYXNzPSJtYXRoLXRleCI+XChcZnJhY3s0MH17LTh9XCk8L3NwYW4+PC9zcGFuPjwvcD4KCjxwPmIgPSAtNTwvcD4K",
+                "choix": {
+                    "1023": "LSA1"
+                }
+            },
+            {
+                "idQuestion": 335,
+                "remediation": "PHA+MiB4IDxzcGFuIHN0eWxlPSJjb2xvcjojMDAwMEZGOyI+Kzwvc3Bhbj4gMzIgPSZuYnNwOyA8c3BhbiBzdHlsZT0iY29sb3I6IzAwRkYwMDsiPis8L3NwYW4+IDggeCAtIDEwPC9wPgoKPHA+MiB4IDxzcGFuIHN0eWxlPSJjb2xvcjojMDBGRjAwOyI+LTwvc3Bhbj4gOCB4ID0gLTEwIDxzcGFuIHN0eWxlPSJjb2xvcjojMDAwMEZGOyI+LSA8L3NwYW4+MzI8L3A+Cgo8cD4tIDYgeCA9IC0gNDI8L3A+Cgo8cD54ID0gPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxOHB4OyI+PHNwYW4gY2xhc3M9Im1hdGgtdGV4Ij5cKFxmcmFjey00Mn17LTZ9XCk8L3NwYW4+PC9zcGFuPjwvcD4KCjxwPnggPSA3PC9wPgoKPHA+TG9ycyBkZXMgYWRkaXRpb25zIG91IHNvdXN0cmFjdGlvbiwgdW4gJnF1b3Q7KyZxdW90OyBkZXZpZW50IHVuICZxdW90Oy0mcXVvdDsmbmJzcDs8L3A+Cgo8cD4mbmJzcDsgJm5ic3A7ICZuYnNwOyAmbmJzcDsgJm5ic3A7ICZuYnNwOyAmbmJzcDsgJm5ic3A7ICZuYnNwOyAmbmJzcDsgJm5ic3A7ICZuYnNwOyAmbmJzcDsgJm5ic3A7ICZuYnNwOyAmbmJzcDsgJm5ic3A7ICZuYnNwOyAmbmJzcDsgJm5ic3A7ICZuYnNwOyAmbmJzcDsgJm5ic3A7ICZuYnNwOyAmbmJzcDsgJm5ic3A7ICZuYnNwOyAmbmJzcDsgJm5ic3A7dW4gJnF1b3Q7LSZxdW90OyBkZXZpZW50IHVuICZxdW90OysmcXVvdDs8L3A+Cg==",
+                "choix": {
+                    "1024": "Nw=="
+                }
+            },
+            {
+                "idQuestion": 329,
+                "remediation": "PHA+LSB4ICsgMTAgPHNwYW4gc3R5bGU9ImNvbG9yOiMwMDAwQ0Q7Ij4tIDEwPC9zcGFuPiA9IDA8c3BhbiBzdHlsZT0iY29sb3I6IzAwMDBGRjsiPiAtIDEwPC9zcGFuPjwvcD4KCjxwPiZuYnNwOy0geCA9IC0xMDwvcD4KCjxwPiZuYnNwOyAmbmJzcDt4ID0gMTA8L3A+Cg==",
+                "choix": {
+                    "1018": "MTA="
+                }
+            },
+            {
+                "idQuestion": 331,
+                "remediation": "PHA+MzxlbT4geDwvZW0+ID0gOTA8L3A+Cgo8cD4zIDxlbT54PC9lbT4gKjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweDsiPiZuYnNwOzwvc3Bhbj48c3BhbiBzdHlsZT0iY29sb3I6IzAwMDBGRjsiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTZweDsiPjxzcGFuIGNsYXNzPSJtYXRoLXRleCI+XChcZnJhY3sxfXszfVwpPC9zcGFuPjwvc3Bhbj48L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4OyI+Jm5ic3A7PSA5MCAqJm5ic3A7PC9zcGFuPjxzcGFuIHN0eWxlPSJjb2xvcjojMDAwMEZGOyI+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxNnB4OyI+PHNwYW4gY2xhc3M9Im1hdGgtdGV4Ij5cKFxmcmFjezF9ezN9XCk8L3NwYW4+PC9zcGFuPjwvc3Bhbj48L3A+Cgo8cD48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHg7Ij48ZW0+eCA8L2VtPj0gMzA8L3NwYW4+PC9wPgo=",
+                "choix": {
+                    "1020": "MzA="
+                }
+            }
+        ],
+        "qcm": {
+            "id": 30,
+            "titre": "Résolution d'équations simples du premier degré (1)",
+            "introduction": "PHA+QXByJmVncmF2ZTtzIGF2b2lyIHJlbHUgbGUgY291cnMgc3VyIGxhIHImZWFjdXRlO3NvbHV0aW9uIGQmIzM5OyZlYWN1dGU7cXVhdGlvbiwgcHJlbmV6IHVuIGJyb3VpbGxvbiBldCByJmVhY3V0ZTtzb2x2ZXogbGVzICZlYWN1dGU7cXVhdGlvbnMgc3VpdmFudGVzOjwvcD4K",
+            "conclusion": "PHA+U2kgdm91cyBhdmV6IGZhaXQgcGx1cyBkZSAyIGVycmV1cnMsIGlsIGZhdXQgcmVmYWlyZSBsZSB0ZXN0IGV0IHByZW5kcmUgbGUgdGVtcHMgZGUgYmllbiBsaXJlIGV0IGNvbXByZW5kcmUgbGEgY29ycmVjdGlvbi48L3A+Cg==",
+            "baremeBR": 1,
+            "baremeAR": 0,
+            "baremeMR": 0,
+            "idAuteur": 27,
+            "qAleatoire": true
+        },
+        "association": {
+            "id": 15,
+            "disponible": true
+        },
+        "participant": {
+            "idParticipant": 283,
+            "debute": "2020-04-22 11:22:10",
+            "peutVoirSolutions": true
+        }
+    }
+}
