@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
+
+body {
+    background: #232931;
+    color: #232931;
+}
+
+.form {
+    display: block;
+}
+
+h2, h3 {
+    font-family: 'Bellota Text';
+}
+
+#frame {
+    display: block;
+}
+
+.questionBox {
+    background: #44B892;
+    border: #E5E5E5 solid 3px;
+    border-radius: 1em;
+    text-align: center;
+    margin: 2em;
+}
+
+.questionSolutions {
+    color: #E5E5E5;
+}
+
+ul {
+    padding-left: 0;
+    font-weight: bold;
+    font-size: larger;
+}
