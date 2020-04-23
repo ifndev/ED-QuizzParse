@@ -49,6 +49,7 @@ async function displayQuestionsAsync() {
             <div class="questionSolutions">
                 <h3>Réponses: </h3>
                 ${getHtmlList(question.choix)}
+                ${question.remediation}
             </div>
         <div>
         `)
