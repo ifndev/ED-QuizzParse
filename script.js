@@ -1,3 +1,9 @@
+/**
+|-----------------------------------------------------------------
+| ⚠ Barely readable code, not intended to be maintened for long ⚠
+|-----------------------------------------------------------------
+*/
+
 async function parseQuestionsAsync() {
     return new Promise(resolve => {
 
