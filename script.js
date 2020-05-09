@@ -47,12 +47,14 @@ async function displayQuestionsAsync() {
                 <h2>${question.question}</h2>
                 ${question.enonce}
             <div class="questionSolutions">
-                <h3>Réponses: </h3>
-                ${getHtmlList(question.choix)}
+                <h3>Explications: </h3>
                 ${question.remediation}
             </div>
         <div>
         `)
     });
+    if (document.getElementById("texEnabled").checked) {
+        MathJax.typesetPromise()
+    }
 
 }
