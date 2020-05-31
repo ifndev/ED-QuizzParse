@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 body {
-    background: #232931;
+    background: #3f3f44;
+    color: #3f3f44;
+}
+
+label {
     color: #fff;
 }
 
@@ -18,8 +22,15 @@ header {
     margin: 2em;
 }
 
+h1 {
+    color: #fff;
+    font-family: 'Quicksand';
+    font-size: 7vh;
+}
+
 h2, h3 {
-    font-family: 'Bellota Text';
+    font-family: 'Quicksand';   
+    text-decoration: underline;
 }
 
 #frame {
@@ -27,20 +38,12 @@ h2, h3 {
 }
 
 .questionBox {
-    background: #44B892;
+    background: #F7F7F7;
     border: #E5E5E5 solid 3px;
     border-radius: 1em;
     text-align: center;
     margin: 2em;
     padding: 2em;
-}
-
-.questionSolutions {
-    color: #E5E5E5;
-}
-
-.questionExplication {
-    color: #E5E5E5
 }
 
 ul {
