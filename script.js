@@ -57,8 +57,8 @@ async function displayQuestionsAsync() {
                 <h2>${question.question}</h2>
                 ${question.enonce}
             <div class="questionsSolution">
-                <h3>Solution: </h3>
-                ${question.choix || ""}
+                <h3>Solution(s): </h3>
+                ${getHtmlList(question.choix) || ""}
                 ${question.solution || ""}
             </div>
             <div>
