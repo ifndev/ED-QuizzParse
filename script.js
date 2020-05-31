@@ -27,9 +27,16 @@ async function parseQuestionsAsync() {
 
             element.choix = [];
 
-            for (let [k, v] of Object.entries(solution.choix)) {
-                element.choix.push(Base64.decode(input.data.questions.find(y => y.id == element.id).propositions.find(z => z.id == v).enonce));
+            if (element.typeQ == "checkbox") {
+                for (let [k, v] of Object.entries(solution.choix)) {
+                    element.choix.push(Base64.decode(input.data.questions.find(y => y.id == element.id).propositions.find(z => z.id == v).enonce));
+                }
             }
+            else {
+                element.choix.push(Base64.decode(input.data.questions.find(y => y.id == element.id).propositions.find(z => z.id == solution.choix).enonce));
+            }
+
+
             element.remediation = Base64.decode(solution.remediation);
 
             console.log(element.choix)
