@@ -32,10 +32,15 @@ h2, h3 {
     border-radius: 1em;
     text-align: center;
     margin: 2em;
+    padding: 2em;
 }
 
 .questionSolutions {
     color: #E5E5E5;
+}
+
+.questionExplication {
+    color: #E5E5E5
 }
 
 ul {

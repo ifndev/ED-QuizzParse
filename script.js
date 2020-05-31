@@ -4,6 +4,8 @@
 |-----------------------------------------------------------------
 */
 
+
+
 async function parseQuestionsAsync() {
     return new Promise(resolve => {
 
@@ -26,9 +28,11 @@ async function parseQuestionsAsync() {
             element.choix = [];
 
             for (let [k, v] of Object.entries(solution.choix)) {
-                element.choix.push(Base64.decode(v));
+                element.choix.push(Base64.decode(input.data.questions.find(y => y.id == element.id).propositions.find(z => z.id == v).enonce));
             }
             element.remediation = Base64.decode(solution.remediation);
+
+            console.log(element.choix)
         });
 
         resolve(qAndA);
@@ -52,9 +56,15 @@ async function displayQuestionsAsync() {
         <div class="questionBox">
                 <h2>${question.question}</h2>
                 ${question.enonce}
-            <div class="questionSolutions">
+            <div class="questionsSolution">
+                <h3>Solution: </h3>
+                ${question.choix || ""}
+                ${question.solution || ""}
+            </div>
+            <div>
+            <div class="questionsExplication">
                 <h3>Explications: </h3>
-                ${question.remediation}
+                ${question.remediation ? question.remediation  : "pas d'explications"}
             </div>
         <div>
         `)
