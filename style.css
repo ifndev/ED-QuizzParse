@@ -46,6 +46,17 @@ h2, h3 {
     padding: 2em;
 }
 
+.warningBox {
+    background: #F7F7F7;
+    border: rgb(255, 195, 67) solid 3px;
+    border-radius: 1em;
+    text-align: center;
+    margin: 2em;
+    padding: 2em;
+    color: rgb(255, 195, 67);
+    font-weight: bolder;
+}
+
 ul {
     padding-left: 0;
     font-weight: bold;

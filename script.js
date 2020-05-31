@@ -22,6 +22,11 @@ docReady(function() {
     }
 });
 
+function canSeeAnswers() {
+    input = JSON.parse(document.getElementById("json-input").value);
+    return input.data.participant.peutVoirSolutions
+}
+
 async function parseQuestionsAsync() {
     return new Promise(resolve => {
 
@@ -54,8 +59,6 @@ async function parseQuestionsAsync() {
 
 
             element.remediation = Base64.decode(solution.remediation);
-
-            console.log(element.choix)
         });
 
         resolve(qAndA);
@@ -74,6 +77,13 @@ function getHtmlList(a) {
 async function displayQuestionsAsync() {
     const questions = await parseQuestionsAsync();
     innerDiv = document.getElementById("frame");
+    if (!canSeeAnswers()) {
+        innerDiv.insertAdjacentHTML('beforeend', `
+        <div class="warningBox">
+            ATTENTION: Le professeur a décidé de ne pas afficher la correction après que vous ayez répondu. De ce fait, les réponses et explications ne peuvent pas être récupérés.
+        <div>
+        `)
+    }
     questions.forEach(question => {
         innerDiv.insertAdjacentHTML('beforeend', `
         <div class="questionBox">
