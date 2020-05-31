@@ -3,8 +3,24 @@
 | ⚠ Barely readable code, not intended to be maintened for long ⚠
 |-----------------------------------------------------------------
 */
+function docReady(fn) {
+    // see if DOM is already available
+    if (document.readyState === "complete" || document.readyState === "interactive") {
+        // call on next available tick
+        setTimeout(fn, 1);
+    } else {
+        document.addEventListener("DOMContentLoaded", fn);
+    }
+}    
 
-
+docReady(function() {
+    if (window.location.hash) {
+        console.log(window.location.hash);
+        document.getElementById("json-input").value = decodeURI(atob(window.location.hash.substring(1)));
+        console.log(document.getElementById("json-input").value)
+        displayQuestionsAsync();
+    }
+});
 
 async function parseQuestionsAsync() {
     return new Promise(resolve => {
