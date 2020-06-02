@@ -57,7 +57,18 @@ h2, h3 {
     font-weight: bolder;
 }
 
-ul {
+.warning {
+    color: rgb(255, 195, 67);
+    font-weight: bolder;
+}
+
+.questionsPropositions li {
+    font-weight: lighter;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.questionsSolution ul {
     padding-left: 0;
     font-weight: bold;
     font-size: larger;

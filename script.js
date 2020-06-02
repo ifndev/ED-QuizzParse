@@ -24,7 +24,15 @@ docReady(function() {
 
 function canSeeAnswers() {
     input = JSON.parse(document.getElementById("json-input").value);
-    return input.data.participant.peutVoirSolutions
+    return input.data.participant.peutVoirSolutions;
+}
+
+function getPropositionsFor(element) {
+    propositions = [];
+    element.propositions.forEach(proposition => {
+        propositions.push(Base64.decode(proposition.enonce))
+    })
+    return propositions;
 }
 
 async function parseQuestionsAsync() {
@@ -40,7 +48,9 @@ async function parseQuestionsAsync() {
                 "id": element.id,
                 "question": Base64.decode(element.question),
                 "enonce": Base64.decode(element.enonce),
+                "propositions": getPropositionsFor(element),
             }]
+            console.log(qAndA)
         });
 
         qAndA.forEach(element => {
@@ -48,17 +58,21 @@ async function parseQuestionsAsync() {
 
             element.choix = [];
 
-            if (element.typeQ == "checkbox") {
-                for (let [k, v] of Object.entries(solution.choix)) {
-                    element.choix.push(Base64.decode(input.data.questions.find(y => y.id == element.id).propositions.find(z => z.id == v).enonce));
+            if (canSeeAnswers()) {
+                if (element.typeQ == "checkbox") {
+                    for (let [k, v] of Object.entries(solution.choix)) {
+                        element.choix.push(Base64.decode(input.data.questions.find(y => y.id == element.id).propositions.find(z => z.id == v).enonce));
+                    }
+                }
+                else {
+                    element.choix.push(Base64.decode(input.data.questions.find(y => y.id == element.id).propositions.find(z => z.id == solution.choix).enonce));
                 }
             }
-            else {
-                element.choix.push(Base64.decode(input.data.questions.find(y => y.id == element.id).propositions.find(z => z.id == solution.choix).enonce));
+
+
+            if (canSeeAnswers()) {
+                element.remediation = Base64.decode(solution.remediation);
             }
-
-
-            element.remediation = Base64.decode(solution.remediation);
         });
 
         resolve(qAndA);
@@ -89,10 +103,16 @@ async function displayQuestionsAsync() {
         <div class="questionBox">
                 <h2>${question.question}</h2>
                 ${question.enonce}
+            <div class="questionsPropositions">
+                <h3>Propositions: </h3>
+                ${getHtmlList(question.propositions) || ""}
+            </div>
+
             <div class="questionsSolution">
                 <h3>Solution(s): </h3>
                 ${getHtmlList(question.choix) || ""}
                 ${question.solution || ""}
+                ${canSeeAnswers() ? "" : "<span class='warning'> Impossible de récupérer les réponses <span>"}
             </div>
             <div>
             <div class="questionsExplication">
