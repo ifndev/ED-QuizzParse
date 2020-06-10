@@ -63,10 +63,6 @@ async function parseQuestionsAsync() {
                     }
                 }
                 else {
-                    console.log(element.id)
-                    console.log(solution.choix)
-                    console.log(input.data.questions.find(y => y.id == element.id))
-                    console.log(typeof(solution.choix))
 
                     if (typeof(solution.choix) == "number") {
                         element.choix.push(Base64.decode(input.data.questions.find(y => y.id == element.id).propositions.find(z => z.id == solution.choix).enonce));
