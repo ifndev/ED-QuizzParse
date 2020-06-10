@@ -11,13 +11,11 @@ function docReady(fn) {
     } else {
         document.addEventListener("DOMContentLoaded", fn);
     }
-}    
+}
 
-docReady(function() {
+docReady(function () {
     if (window.location.hash) {
-        console.log(window.location.hash);
         document.getElementById("json-input").value = decodeURI(atob(window.location.hash.substring(1)));
-        console.log(document.getElementById("json-input").value)
         displayQuestionsAsync();
     }
 });
@@ -65,7 +63,20 @@ async function parseQuestionsAsync() {
                     }
                 }
                 else {
-                    element.choix.push(Base64.decode(input.data.questions.find(y => y.id == element.id).propositions.find(z => z.id == solution.choix).enonce));
+                    console.log(element.id)
+                    console.log(solution.choix)
+                    console.log(input.data.questions.find(y => y.id == element.id))
+                    console.log(typeof(solution.choix))
+
+                    if (typeof(solution.choix) == "number") {
+                        element.choix.push(Base64.decode(input.data.questions.find(y => y.id == element.id).propositions.find(z => z.id == solution.choix).enonce));
+                    }
+                    else {
+                        solution.choix.forEach((choixindiv) => {
+                            element.choix.push(Base64.decode(input.data.questions.find(y => y.id == element.id).propositions.find(z => z.id == choixindiv).enonce));
+                        })
+                    }
+
                 }
             }
 
@@ -117,7 +128,7 @@ async function displayQuestionsAsync() {
             <div>
             <div class="questionsExplication">
                 <h3>Explications: </h3>
-                ${question.remediation ? question.remediation  : "pas d'explications"}
+                ${question.remediation ? question.remediation : "pas d'explications"}
             </div>
         <div>
         `)
