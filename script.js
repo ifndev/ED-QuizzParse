@@ -68,9 +68,10 @@ async function parseQuestionsAsync() {
                         element.choix.push(Base64.decode(input.data.questions.find(y => y.id == element.id).propositions.find(z => z.id == solution.choix).enonce));
                     }
                     else {
-                        solution.choix.forEach((choixindiv) => {
+                        for (let i = 0; i < solution.choix.length; i++){
+                            const choixindiv = solution.choix[i];
                             element.choix.push(Base64.decode(input.data.questions.find(y => y.id == element.id).propositions.find(z => z.id == choixindiv).enonce));
-                        })
+                        }
                     }
 
                 }
